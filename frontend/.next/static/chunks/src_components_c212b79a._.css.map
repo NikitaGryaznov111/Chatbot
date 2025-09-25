@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///turbopack:///[project]/src/components/ChatInterface/C:/Users/nikit/OneDrive/Рабочий стол/Chatbot/frontend/src/components/ChatInterface/ChatInterface.module.scss"],"sourcesContent":["$var: red;\n.chatInterface {\r\n  padding: 15px;\r\n}\r\n"],"names":[],"mappings":"AACA","debugId":null}},
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":["turbopack:///turbopack:///[project]/src/components/Container/C:/Users/nikit/OneDrive/Рабочий стол/Chatbot/frontend/src/components/Container/Container.module.scss"],"sourcesContent":["$var: red;\n.container {\r\n  padding: 10px;\r\n  margin: 0 auto;\r\n  background-color: rgb(14, 12, 21);\r\n  height: 100vh;\r\n  color: white;\r\n}\r\n"],"names":[],"mappings":"AACA","debugId":null}}]
+}

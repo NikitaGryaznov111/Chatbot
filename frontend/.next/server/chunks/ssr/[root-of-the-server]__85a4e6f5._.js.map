@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 17, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/nikit/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/Chatbot/frontend/src/components/ChatInterface.tsx"],"sourcesContent":["const ChatInterface = () => {\r\n  return (\r\n    <form action=\"\">\r\n      <div>\r\n        <input\r\n          type=\"text\"\r\n          name=\"message\"\r\n          aria-label=\"Напишите ваш вопрос\"\r\n          placeholder=\"Напишите ваш вопрос...\"\r\n        />\r\n        <button type=\"submit\">Отправить</button>\r\n      </div>\r\n    </form>\r\n  );\r\n};\r\n\r\nexport default ChatInterface;\r\n"],"names":[],"mappings":";;;;;;AAAA,MAAM,gBAAgB;IACpB,qBACE,8OAAC;QAAK,QAAO;kBACX,cAAA,8OAAC;;8BACC,8OAAC;oBACC,MAAK;oBACL,MAAK;oBACL,cAAW;oBACX,aAAY;;;;;;8BAEd,8OAAC;oBAAO,MAAK;8BAAS;;;;;;;;;;;;;;;;;AAI9B;uCAEe","debugId":null}},
+    {"offset": {"line": 63, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/nikit/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/Chatbot/frontend/src/app/page.tsx"],"sourcesContent":["import ChatInterface from '@/components/ChatInterface';\nexport default function Home() {\n  return (\n    <div>\n      {' '}\n      <ChatInterface />;\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;AAAA;;;AACe,SAAS;IACtB,qBACE,8OAAC;;YACE;0BACD,8OAAC,8IAAa;;;;;YAAG;;;;;;;AAGvB","debugId":null}}]
+}

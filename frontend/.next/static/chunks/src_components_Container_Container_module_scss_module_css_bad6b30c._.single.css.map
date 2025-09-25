@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///turbopack:///[project]/src/components/Container/C:/Users/nikit/OneDrive/Рабочий стол/Chatbot/frontend/src/components/Container/Container.module.scss"],"sourcesContent":["$var: red;\n.container {\r\n  padding: 10px;\r\n  margin: 0 auto;\r\n  background-color: rgb(14, 12, 21);\r\n  color: white;\r\n}\r\n"],"names":[],"mappings":"AACA"}}]
+}

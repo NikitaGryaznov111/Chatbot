@@ -1,0 +1,39 @@
+/* [project]/src/components/Form/Form.module.scss.module.css [app-client] (css) */
+.Form-module-scss-module__TeAh4W__container {
+  cursor: text;
+  border: 1px solid #313e62;
+  border-radius: 6px;
+  flex-direction: column;
+  padding: 10px;
+  display: flex;
+}
+
+.Form-module-scss-module__TeAh4W__container:hover, .Form-module-scss-module__TeAh4W__container:focus, .Form-module-scss-module__TeAh4W__activeFocus {
+  border: 1px solid #445ea8;
+}
+
+.Form-module-scss-module__TeAh4W__textarea {
+  width: 100%;
+  height: 100%;
+  box-shadow: none;
+  line-height: inherit;
+  resize: none;
+  scrollbar-width: none;
+  background: none;
+  border: none;
+  outline: none;
+  margin-bottom: 10px;
+  overflow-y: auto;
+}
+
+.Form-module-scss-module__TeAh4W__button {
+  cursor: pointer;
+  background-image: url("../media/tg-logo.63c418cb.svg");
+  background-repeat: no-repeat;
+  background-size: 20px;
+  align-self: flex-end;
+  width: 20px;
+  height: 20px;
+}
+
+/*# sourceMappingURL=src_components_Form_Form_module_scss_module_css_bad6b30c._.single.css.map*/

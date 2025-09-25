@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///turbopack:///[project]/src/components/ChatInterface/C:/Users/nikit/OneDrive/Рабочий стол/Chatbot/frontend/src/components/ChatInterface/ChatInterface.module.scss"],"sourcesContent":["$var: red;\n.chatInterface {\r\n  padding: 0 10px 10px 10px;\r\n  background-color: #07112b;\r\n  border-radius: 20px;\r\n  height: 100vh;\r\n}\r\n.chatInterfaceContainer {\r\n  max-width: 1100px;\r\n  margin: 0 auto;\r\n}\r\n"],"names":[],"mappings":"AACA;;;;;;;AAMA"}}]
+}
