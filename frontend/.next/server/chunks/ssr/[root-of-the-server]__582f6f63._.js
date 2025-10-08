@@ -15,6 +15,9 @@ __turbopack_context__.n(__turbopack_context__.i("[project]/src/app/layout.tsx [a
 "[project]/src/components/Form/Form.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+// 'use client';
+// import { useRef, useState } from 'react';
+// import styles from './Form.module.scss';
 __turbopack_context__.s([
     "default",
     ()=>__TURBOPACK__default__export__
@@ -22,37 +25,46 @@ __turbopack_context__.s([
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
 ;
 const Form = ()=>{
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
-        action: "",
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            children: [
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
-                    name: "message",
-                    "aria-label": "Напишите ваш вопрос",
-                    placeholder: "Напишите ваш вопрос..."
-                }, void 0, false, {
-                    fileName: "[project]/src/components/Form/Form.tsx",
-                    lineNumber: 6,
-                    columnNumber: 9
-                }, ("TURBOPACK compile-time value", void 0)),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                    type: "submit",
-                    children: "Отправить"
-                }, void 0, false, {
-                    fileName: "[project]/src/components/Form/Form.tsx",
-                    lineNumber: 11,
-                    columnNumber: 9
-                }, ("TURBOPACK compile-time value", void 0))
-            ]
-        }, void 0, true, {
-            fileName: "[project]/src/components/Form/Form.tsx",
-            lineNumber: 5,
-            columnNumber: 7
-        }, ("TURBOPACK compile-time value", void 0))
-    }, void 0, false, {
+    // const [focusContainer, setFocusContainer] = useState(false);
+    // const [text, setText] = useState('');
+    // const ref = useRef<HTMLTextAreaElement>(null);
+    // // НАПИШИ АПИХУ, ПОТЕСТИРУЙ С ПОСТМЕНОМ
+    // // зачем в вашем коде выполняется повторный запрос на бэкенд через axios.post('http://localhost:5000/chat', { message }), и действительно ли это необходимо. ИЗУЧИ ЭТОТ ВОПРОС В ЧАТЕ ПОЛУЧШЕ!!!
+    // return (
+    //   <form action="">
+    //     <div
+    //       className={`${styles.container} ${
+    //         focusContainer ? styles.activeFocus : ''
+    //       }`}
+    //       tabIndex={0}
+    //       onClick={() => (ref.current as HTMLTextAreaElement).focus()}
+    //     >
+    //       <textarea
+    //         ref={ref}
+    //         value={text}
+    //         onChange={(e) => setText(e.target.value)}
+    //         onFocus={() => setFocusContainer(true)}
+    //         onBlur={() => setFocusContainer(false)}
+    //         className={styles.textarea}
+    //         name="message"
+    //         aria-label="Напишите ваш вопрос"
+    //         placeholder="Напишите ваш вопрос..."
+    //       ></textarea>
+    //       <button type="submit" className={styles.button}></button>
+    //     </div>
+    //   </form>
+    // );
+    let name = 'user';
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+        children: [
+            "hello, ",
+            name,
+            "!"
+        ]
+    }, void 0, true, {
         fileName: "[project]/src/components/Form/Form.tsx",
-        lineNumber: 4,
-        columnNumber: 5
+        lineNumber: 36,
+        columnNumber: 10
     }, ("TURBOPACK compile-time value", void 0));
 };
 const __TURBOPACK__default__export__ = Form;
@@ -61,6 +73,7 @@ const __TURBOPACK__default__export__ = Form;
 
 __turbopack_context__.v({
   "chatInterface": "ChatInterface-module-scss-module__UejMLq__chatInterface",
+  "chatInterfaceContainer": "ChatInterface-module-scss-module__UejMLq__chatInterfaceContainer",
 });
 }),
 "[project]/src/components/ChatInterface/ChatInterface.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
@@ -79,9 +92,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ChatInt
 const ChatInterface = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
         className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ChatInterface$2f$ChatInterface$2e$module$2e$scss__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].chatInterface,
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Form$2f$Form$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ChatInterface$2f$ChatInterface$2e$module$2e$scss__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].chatInterfaceContainer,
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Form$2f$Form$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                fileName: "[project]/src/components/ChatInterface/ChatInterface.tsx",
+                lineNumber: 8,
+                columnNumber: 9
+            }, ("TURBOPACK compile-time value", void 0))
+        }, void 0, false, {
             fileName: "[project]/src/components/ChatInterface/ChatInterface.tsx",
-            lineNumber: 7,
+            lineNumber: 6,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {
@@ -135,15 +155,12 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Contain
 ;
 function Home() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Container$2f$Container$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Container"], {
-        children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ChatInterface$2f$ChatInterface$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                fileName: "[project]/src/app/(home)/page.tsx",
-                lineNumber: 6,
-                columnNumber: 7
-            }, this),
-            ";"
-        ]
-    }, void 0, true, {
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ChatInterface$2f$ChatInterface$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+            fileName: "[project]/src/app/(home)/page.tsx",
+            lineNumber: 6,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
         fileName: "[project]/src/app/(home)/page.tsx",
         lineNumber: 5,
         columnNumber: 5

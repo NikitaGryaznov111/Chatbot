@@ -1,4 +1,20 @@
 {
-  "node": {},
+  "node": {
+    "407eb262eb394dd8dc9829261e775c469357d58fd6": {
+      "workers": {
+        "app/(home)/page": {
+          "moduleId": "[project]/.next-internal/server/app/(home)/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/server-actions/chatAction.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true,
+          "exportedName": "default",
+          "filename": "src/server-actions/chatAction.ts"
+        }
+      },
+      "layer": {
+        "app/(home)/page": "action-browser"
+      },
+      "exportedName": "default",
+      "filename": "src/server-actions/chatAction.ts"
+    }
+  },
   "edge": {}
 }

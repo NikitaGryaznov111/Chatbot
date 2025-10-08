@@ -32,8 +32,14 @@ const Form = ()=>{
     const [focusContainer, setFocusContainer] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
     const [text, setText] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])('');
     const ref = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(null);
+    const handleSubmit = (e)=>{
+        e.preventDefault();
+        const formData = new FormData(e.target);
+        const message = formData.get('message');
+        console.log(message);
+    };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
-        action: "",
+        onSubmit: handleSubmit,
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Form$2f$Form$2e$module$2e$scss__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].container} ${focusContainer ? __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Form$2f$Form$2e$module$2e$scss__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].activeFocus : ''}`,
             tabIndex: 0,
@@ -51,7 +57,7 @@ const Form = ()=>{
                     placeholder: "Напишите ваш вопрос..."
                 }, void 0, false, {
                     fileName: "[project]/src/components/Form/Form.tsx",
-                    lineNumber: 17,
+                    lineNumber: 24,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -59,18 +65,18 @@ const Form = ()=>{
                     className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Form$2f$Form$2e$module$2e$scss__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].button
                 }, void 0, false, {
                     fileName: "[project]/src/components/Form/Form.tsx",
-                    lineNumber: 28,
+                    lineNumber: 35,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/Form/Form.tsx",
-            lineNumber: 10,
+            lineNumber: 17,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {
         fileName: "[project]/src/components/Form/Form.tsx",
-        lineNumber: 9,
+        lineNumber: 16,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };

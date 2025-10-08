@@ -1,13 +1,20 @@
 /* [project]/src/components/ChatInterface/ChatInterface.module.scss.module.css [app-client] (css) */
 .ChatInterface-module-scss-module__UejMLq__chatInterface {
-  padding: 15px;
+  background-color: #07112b;
+  border-radius: 20px;
+  height: 100vh;
+  padding: 0 10px 10px;
+}
+
+.ChatInterface-module-scss-module__UejMLq__chatInterfaceContainer {
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 /* [project]/src/components/Container/Container.module.scss.module.css [app-client] (css) */
 .Container-module-scss-module__JlzzPW__container {
   color: #fff;
   background-color: #0e0c15;
-  height: 100vh;
   margin: 0 auto;
   padding: 10px;
 }

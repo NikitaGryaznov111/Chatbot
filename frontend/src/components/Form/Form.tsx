@@ -1,12 +1,24 @@
 'use client';
 import { useRef, useState } from 'react';
 import styles from './Form.module.scss';
+import sendMessage from '@/server-actions/chatAction';
 const Form = () => {
   const [focusContainer, setFocusContainer] = useState(false);
   const [text, setText] = useState('');
   const ref = useRef<HTMLTextAreaElement>(null);
+
+  const handleSubmit = async (formData: FormData) => {
+    try {
+      const res = await sendMessage(formData);
+      if (res?.sender) {
+        setText('');
+      }
+    } catch (error) {
+      console.error(`Не удалось получить сообщение: ${error}`);
+    }
+  };
   return (
-    <form action="">
+    <form action={handleSubmit}>
       <div
         className={`${styles.container} ${
           focusContainer ? styles.activeFocus : ''
